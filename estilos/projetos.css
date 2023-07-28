@@ -48,9 +48,9 @@ body {
     margin-bottom: 2rem;
 }
 
-#bike {
-    width: 417px;
-    height: 180px;
+#netflix {
+    width: 200px;
+    height: 250px;
     border-left-color: var(--primary);
     border-left-style: outset;
     border-left-width: 7px;
