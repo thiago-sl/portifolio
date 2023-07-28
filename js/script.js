@@ -208,28 +208,16 @@ function saindo6 () {
     p.style.marginTop = '25px'
 }
 
-function enterandroid () {
-    var imgandroid = document.getElementById('android');
+function enterloja () {
+    var imgandroid = document.getElementById('loja');
     imgandroid.style.opacity = '67%';
     imgandroid.style.borderLeftColor = 'purple'
 }
 
-function leaveandroid () {
-    var imgandroid = document.getElementById('android');
+function leaveloja () {
+    var imgandroid = document.getElementById('loja');
     imgandroid.style.opacity = '40%';
     imgandroid.style.borderLeftColor = '#03e9f4'
-}
-
-function entertlou () {
-    var imgtlou = document.getElementById('tlou');
-    imgtlou.style.opacity = '90%';
-    imgtlou.style.borderLeftColor = 'purple'
-}
-
-function leavetlou () {
-    var imgtlou = document.getElementById('tlou');
-    imgtlou.style.opacity = '55%';
-    imgtlou.style.borderLeftColor = '#03e9f4'
 }
 
 function enternetflix () {
@@ -240,6 +228,18 @@ function enternetflix () {
 
 function leavenetflix () {
     var imgtlou = document.getElementById('netflix');
+    imgtlou.style.opacity = '55%';
+    imgtlou.style.borderLeftColor = '#03e9f4'
+}
+
+function enterseguranca () {
+    var imgtlou = document.getElementById('seguranca');
+    imgtlou.style.opacity = '90%';
+    imgtlou.style.borderLeftColor = 'purple'
+}
+
+function leaveseguranca () {
+    var imgtlou = document.getElementById('seguranca');
     imgtlou.style.opacity = '55%';
     imgtlou.style.borderLeftColor = '#03e9f4'
 }

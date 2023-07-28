@@ -36,9 +36,9 @@ body {
 
 }
 
-#android {
-    width: 400px;
-    height: 180px;
+#loja {
+    width: 200px;
+    height: 250px;
     border-left-color: var(--primary);
     border-left-style: outset;
     border-left-width: 7px;
@@ -48,7 +48,7 @@ body {
     margin-bottom: 2rem;
 }
 
-#tlou {
+#bike {
     width: 417px;
     height: 180px;
     border-left-color: var(--primary);
@@ -60,9 +60,9 @@ body {
     margin-bottom: 2rem;
 }
 
-#netflix {
-  width: 400px;
-  height: 180px;
+#seguranca{
+  width: 200px;
+  height: 250px;
   border-left-color: var(--primary);
   border-left-style: outset;
   border-left-width: 7px;
@@ -73,12 +73,12 @@ body {
 }
 
 #login {
-    width: 400px;
-    height: 180px;
+    width: 200px;
+    height: 250px;
     border-left-color: var(--primary);
     border-left-style: outset;
     border-left-width: 7px;
-    max-width: 400px;
+    max-width: 200px;
     opacity: 40%;
     transition: 0.3s;
     margin-bottom: 2rem;
@@ -90,7 +90,7 @@ body {
   border-left-color: var(--primary);
   border-left-style: outset;
   border-left-width: 7px;
-  max-width: 400px;
+  max-width: 200px;
   opacity: 55%;
   transition: 0.3s;
   margin-bottom: 2rem;
