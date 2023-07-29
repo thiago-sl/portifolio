@@ -250,23 +250,39 @@ section span {
   @media screen  and (max-width: 960px){
     .projetos{
       max-width:960px;
-      min-width:360px;
+    grid-template-columns: auto;
+    padding-top: 5px;
+    gap:5px;
+    margin: 0px;
+    padding: 5px;
+
     }
-    body{
-      
-        max-width:960px;
-        min-width:360px;
-      }
+    .projetos-card{
+      max-width: 960px;
+    }
+    #landingpage {
+      width: 417px;
+      height: 180px;
+      border-left-color: var(--primary);
+      border-left-style: outset;
+      border-left-width: 7px;
+      max-width: 200px;
+      opacity: 55%;
+      transition: 0.3s;
+      margin-bottom: 2rem;
+    }
+ 
     
   }
   @media screen  and (min-width: 360px){
     .projetos{
-      max-width:960px;
+     
       min-width:360px;
+      flex-direction: column;
     }
-    body{
-      
-      max-width:960px;
-      min-width:360px;
+    .projetos-card{
+      min-width: 360px;
+      flex-direction: column;
     }
+ 
   }

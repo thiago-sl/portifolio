@@ -159,12 +159,24 @@ footer{
 @media screen  and (max-width: 960px){
     header{
         max-width:960px;
-        min-width:360px;
+    
     }
-}
-@media screen  and (min-width: 360px){
-    body{
+    .cabecario-link{
         max-width: 960px;
-        min-width: 360px;
+        font-size: 8px;
+        flex-direction: column;
+    }
+    .logo{
+        display: none;
+    }
+    .perfil img{
+      margin: 0 auto;
+    }
+ 
+}
+@media screen  and (min-width: 960px){
+    header{
+        min-width:360px;
+    
     }
 }
