@@ -156,9 +156,15 @@ footer{
     background:linear-gradient(rgba(0,0,0.5), rgba(0,0,0.5));
 }
 
-@media screen (max-width 960px){
+@media screen  and (max-width: 960px){
     header{
+        max-width:960px;
+        min-width:360px;
+    }
+}
+@media screen  and (min-width: 360px){
+    body{
         max-width: 960px;
-        min-width: 366px;
+        min-width: 360px;
     }
 }

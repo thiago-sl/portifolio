@@ -77,3 +77,16 @@
 .embreve {
     word-spacing: 3px;
 }
+@media screen  and (max-width: 960px){
+    .container-habilidades{
+        max-width:960px;
+        min-width:360px;
+    }
+}
+@media screen  and (min-width: 360px){
+    .container-habilidades{
+        max-width:960px;
+        min-width:360px;
+    }
+
+}
