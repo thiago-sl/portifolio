@@ -253,7 +253,7 @@ section span {
     grid-template-columns: auto;
     padding-top: 5px;
     gap:5px;
-    margin: 0px;
+    margin: 50px;
     padding: 5px;
 
     }
@@ -279,10 +279,12 @@ section span {
      
       min-width:360px;
       flex-direction: column;
+     
     }
     .projetos-card{
       min-width: 360px;
       flex-direction: column;
+       
     }
  
   }
