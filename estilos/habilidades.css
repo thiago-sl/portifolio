@@ -24,7 +24,7 @@
     font-size: 18px;
     max-width: 335px;
     line-height: 35px;
-    color: #C4C4C4;
+    color: #000;
 }
 
 .habilidades {
@@ -70,13 +70,9 @@
     width: 77px;
 }
 
-#enter6 {
-    position: absolute;
-}
 
-.embreve {
-    word-spacing: 3px;
-}
+
+
 @media screen  and (max-width: 960px){
     .container-habilidades{
         max-width:960px;
