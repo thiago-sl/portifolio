@@ -44,6 +44,7 @@ header{
   
   }
   
+  
   nav {
     position: fixed;
     z-index: 1;
@@ -72,15 +73,17 @@ header{
   .mobile-menu {
     display: none;
     cursor: pointer;
+    
   }
   
   .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: var(--primary);
+    background-color: #000;
     margin: 8px;
     transition: 0.3s;
     margin-left: -120px;
+  
   }
   
   @media (max-width: 999px) {
@@ -106,6 +109,8 @@ header{
     }
     .mobile-menu {
       display: block;
+      
+      
     }
   }
   
@@ -126,6 +131,7 @@ header{
   
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
+    
   }
   
   .mobile-menu.active .line2 {
