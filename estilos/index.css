@@ -67,6 +67,7 @@ header{
     margin-left: 25px;
     color: #fff;
     font-size: 20px;
+    
  
   }
   
@@ -82,9 +83,11 @@ header{
     background-color: #000;
     margin: 8px;
     transition: 0.3s;
-    margin-left: -120px;
+    margin-left: -120px; 
+  
   
   }
+  
   
   @media (max-width: 999px) {
     body {
@@ -92,10 +95,10 @@ header{
     }
     .nav-list {
       position: absolute;
-      top: 8vh;
+      top: 3vh;
       right: 0;
       width: 50vw;
-      height: 36vh;
+      
      
       flex-direction: column;
       align-items: center;
@@ -113,6 +116,7 @@ header{
       
     }
   }
+
   
   .nav-list.active {
     transform: translateX(0);
