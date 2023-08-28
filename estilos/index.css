@@ -28,6 +28,7 @@ header{
     display: flex;
     justify-content: space-around;
     max-width:100%;
+    height:auto;
     align-items: center;
     text-align: center;
     padding-top: 1rem;
@@ -50,10 +51,11 @@ header{
     z-index: 1;
     width: 100%;
     display: flex;
+    height: auto;
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(90deg, rgba(177,241,194,1) 0%, rgba(201,240,217,1) 35%, rgba(25,247,0,1) 100%);
-    height: 8vh;
+    height: 10vh;
     
   }
   .nav-list {
@@ -63,8 +65,8 @@ header{
   }
   
   .nav-list li a{
-    letter-spacing: 3px;
-    margin-left: 25px;
+    letter-spacing: 1px;
+    margin-left: 19px;
     color: #fff;
     font-size: 20px;
     
@@ -78,7 +80,7 @@ header{
   }
   
   .mobile-menu div {
-    width: 32px;
+    width: 28px;
     height: 2px;
     background-color: #000;
     margin: 8px;
@@ -95,21 +97,30 @@ header{
     }
     .nav-list {
       position: absolute;
-      top: 3vh;
+      top: 1vh;
       right: 0;
       width: 50vw;
-      
-     
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
+      
       transform: translateX(100%);
       transition: transform 0.3s ease-in;
+      
     }
-    .nav-list li {
+    .nav-list li  {
       margin-left: 0;
       opacity: 0;
     }
+    .nav-list li a{
+      letter-spacing: 1px;
+      margin-left: 19px;
+      color: #fff;
+      font-size: 16px;
+      
+   
+    }
+  
     .mobile-menu {
       display: block;
       
