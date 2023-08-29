@@ -51,11 +51,11 @@ header{
     z-index: 1;
     width: 100%;
     display: flex;
-    height: auto;
+  
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(90deg, rgba(177,241,194,1) 0%, rgba(201,240,217,1) 35%, rgba(25,247,0,1) 100%);
-    height: 10vh;
+    height: 15vh;
     
   }
   .nav-list {
@@ -97,7 +97,7 @@ header{
     }
     .nav-list {
       position: absolute;
-      top: 3vh;
+      top: 4vh;
       right: 0;
       width: 50vw;
       flex-direction: column;
