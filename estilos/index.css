@@ -97,7 +97,7 @@ header{
     }
     .nav-list {
       position: absolute;
-      top: 6vh;
+      top: 5vh;
       right: 0;
       width: 50vw;
       flex-direction: column;
